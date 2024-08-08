@@ -5,6 +5,21 @@ updates:
     schedule:
       interval: "weekly"
   - package-ecosystem: "gradle"
+    target-branch: "8.7.x"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    target-branch: "8.6.x"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    target-branch: "8.5.x"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
     target-branch: "8.4.x"
     directory: "/"
     schedule:
@@ -27,10 +42,5 @@ updates:
   - package-ecosystem: "gradle"
     target-branch: "8.0.x"
     directory: "/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    directory: "/"
-    target-branch: "7.4.x"
     schedule:
       interval: "daily"
