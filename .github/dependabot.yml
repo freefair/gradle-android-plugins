@@ -29,18 +29,3 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-  - package-ecosystem: "gradle"
-    target-branch: "8.2.x"
-    directory: "/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    target-branch: "8.1.x"
-    directory: "/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "gradle"
-    target-branch: "8.0.x"
-    directory: "/"
-    schedule:
-      interval: "daily"
