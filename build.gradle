@@ -1,7 +1,7 @@
 import io.freefair.gradle.plugins.okhttp.tasks.UploadFile
 
 plugins {
-    id "com.gradle.plugin-publish" version "1.2.1"
+    id "com.gradle.plugin-publish" version "1.2.2"
     id "io.freefair.git-version"
     id "io.freefair.lombok"
     id "io.freefair.javadoc-links"
